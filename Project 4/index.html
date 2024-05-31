@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruitables</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="top-nav">
+            <div class="bg-nav">
+                <div class="first-top">
+                    <div class="first-one">
+                        <i class="fas fa-map-marker-alt me-2 text-secondary"></i>
+                        <a href="#" class="text-white">123 Street, New York</a>
+                    </div>
+                    <div class="first-two">
+                        <i class="fas fa-envelope me-2 text-secondary"></i>
+                        <a href="#" class="text-white">Email@Example.com</a>
+                    </div>
+                </div>
+                <div class="top-links">
+                    <a href="#" class="text-white"><small class="text-white mx-2">Privacy Policy</small>/</a>
+                    <a href="#" class="text-white"><small class="text-white mx-2">Terms of Use</small>/</a>
+                    <a href="#" class="text-white"><small class="text-white ms-2">Sales and Refunds</small></a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <div id="c-name">
+                <a href="index.html">
+                    <h1>Fruitables</h1>
+                </a>
+            </div>
+            <div class="nav-links">
+                <!-- <i class="fa fa-times"></i> -->
+                <ul>
+                    <li class="nav-list"><a href="#">Home</a></li>
+                    <li class="nav-list"><a href="#">Shop</a></li>
+                    <li class="nav-list"><a href="#">Shop Details </a></li>
+
+                    <li class="nav-list"><a href="#">Pages</a> <i class="fas fa-chevron-down"></i>
+                        <div class="drop">
+                            <ul class="dropdown">
+                                <li class="drip"><a href="">Cart</a></li>
+                                <li class="drip"><a href="">Checkout</a></li>
+                                <li class="drip"><a href="">Testimonial</a></li>
+                                <li class="drip"><a href="">404 Page</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-list"><a href="#">Contact</a></li>
+                </ul>
+                <!-- <i class="fa fa-bars"></i> -->
+            </div>
+
+            <div class="main-box">
+                <div class="main-header-box">
+                    <div class="main-one">
+                            <button id="overlay-btn" class="main-search" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-primary"></i></button>
+                            <div id="overlay">
+                                <h4>Search by keywords</h4>
+                                <button id="close-btn">&times;</button>
+                                <div class="srch-bar">
+                                    <input type="search" class="srch-bar-in" placeholder="keywords" aria-describedby="search-icon-1">
+                                    <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                                  </div>
+                              </div>
+
+                    </div>
+                    <div class="main-two">
+                        <a href="#" class="main-cart">
+                            <i class="fa fa-shopping-bag fa-2x"></i>
+                            <span class="main-digit">3</span>
+                        </a>
+                    </div>
+                    <div class="main-three">
+                        <a href="#first-section" class="main-profile">
+                            <i class="fas fa-user fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="first-section">
+        <div class="first-main">
+            <div class="first-text">
+                <div class="f-h">
+                    <h4>100% Organic Foods</h4>
+                </div>
+                <div class="f-h1">
+                    <h1>Organic Veggies & Fruits Foods</h1>
+                </div>
+                <div class="">
+                    <input class="first-input" type="number" placeholder="Search">
+                    <button type="submit" class="first-button">Submit Now</button>
+                </div>
+
+            </div>
+            <div class="first-slider">
+                <div class="f-s">
+                    <div class="f-s-b1">
+                        <i role="button" id="prevBtn" class="fas fa-angle-left"></i>
+                    </div>
+                    <div class="slide">
+                        <div class="f-v">
+                            <img src="/imgs/slide1.webp" alt="Fruits">
+                            <a href="#" class="fruit mano">Fruites</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="f-v">
+                            <img src="/imgs/slide2.jpg" alt="Fruits">
+                            <a href="#" class="vegetable mano">Vegetables</a>
+                        </div>
+                    </div>
+                    <div class="f-s-b2">
+                        <i role="button" id="nextBtn" class="fas fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="second-section">
+        <div class="second-main">
+            <div class="sec-card-1 secc">
+                <div class="sec-i">
+                    <i class="fas fa-car-side fa-3x text-white"></i>
+                </div>
+                <div class="sec-head">
+                    <h5>Free Shipping</h5>
+                </div>
+                <div class="sec-para">
+                    <p>Free on order over $300</p>
+                </div>
+            </div>
+            <div class="sec-card-2 secc">
+                <div class="sec-i">
+                    <i class="fas fa-user-shield fa-3x text-white"></i>
+                </div>
+                <div class="sec-head">
+                    <h5>Security Payment</h5>
+                </div>
+                <div class="sec-para">
+                    <p>100% security payment</p>
+                </div>
+            </div>
+            <div class="sec-card-3 secc">
+                <div class="sec-i">
+                    <i class="fas fa-exchange-alt fa-3x text-white"></i>
+                </div>
+                <div class="sec-head">
+                    <h5>30 Day Return</h5>
+                </div>
+                <div class="sec-para">
+                    <p>30 day money guarantee</p>
+                </div>
+            </div>
+            <div class="sec-card-4 secc">
+                <div class="sec-i">
+                    <i class="fa fa-phone-alt fa-3x text-white"></i>
+                </div>
+                <div class="sec-head">
+                    <h5>24/7 Support</h5>
+                </div>
+                <div class="sec-para">
+                    <p>Support every time fast</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="third-section">
+        <div class="third-main">
+            <div class="t-b">
+                <h1 class="third-text">Our Organic Products</h1>
+                <button class="filter-btn" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="fruits">Fruits</button>
+                <button class="filter-btn" data-filter="vegetables">Vegetables</button>
+                <button class="filter-btn" data-filter="berries">Berries</button>
+            </div>
+            <div class="product-container" id="product-container">
+                <div class="product-item fruits">
+                    <div class="t-f-i">
+                        <img src="/imgs/best-product-3.jpg" alt="" class="zoom-img">
+                    </div>
+                    <div class="t-f-u-f">Fruits</div>
+                    <div class="t-f-t">
+                        <h4>Banana</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum doloribus eveniet quo.
+                        </p>
+                        <div class="t-rate">
+                            <p class="t-price">$4.99 / kg</p>
+                            <a href="#" class="btn-t-la"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item fruits">
+                    <div class="t-f-i">
+                        <img src="/imgs/best-product-1.jpg" alt="" class="zoom-img">
+                    </div>
+                    <div class="t-f-u-f">Fruits</div>
+                    <div class="t-f-t">
+                        <h4>Oranges</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum doloribus eveniet quo.
+                        </p>
+                        <div class="t-rate">
+                            <p class="t-price">$4.99 / kg</p>
+                            <a href="#" class="btn-t-la"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="product-item fruits">
+                    <div class="t-f-i">
+                        <img src="/imgs/mango.jpeg" alt="" class="zoom-img">
+                    </div>
+                    <div class="t-f-u-f">Fruits</div>
+                    <div class="t-f-t">
+                        <h4>Mangoes</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum doloribus eveniet quo.
+                        </p>
+                        <div class="t-rate">
+                            <p class="t-price">$4.99 / kg</p>
+                            <a href="#" class="btn-t-la"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item fruits">
+                    <div class="t-f-i">
+                        <img src="/imgs/best-product-5.jpg" alt="" class="zoom-img">
+                    </div>
+                    <div class="t-f-u-f">Fruits</div>
+                    <div class="t-f-t">
+                        <h4>Grapes</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum doloribus eveniet quo.
+                        </p>
+                        <div class="t-rate">
+                            <p class="t-price">$4.99 / kg</p>
+                            <a href="#" class="btn-t-la"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item berries">
+                    <div class="t-f-i">
+                        <img src="/imgs/blue berry.jpg" alt="" class="zoom-img">
+                    </div>
+                    <div class="t-f-u-b">Berries</div>
+                    <div class="t-f-t">
+                        <h4>Blue Berries</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum doloribus eveniet quo.
+                        </p>
+                        <div class="t-rate">
+                            <p class="t-price">$4.99 / kg</p>
+                            <a href="#" class="btn-t-la"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item berries">
+                    <div class="t-f-i">
+                        <img src="/imgs/red berry.webp" alt="" class="zoom-img">
+                    </div>
+                    <div class="t-f-u-b">Berries</div>
+                    <div class="t-f-t">
+                        <h4>Red Berries</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum doloribus eveniet quo.
+                        </p>
+                        <div class="t-rate">
+                            <p class="t-price">$4.99 / kg</p>
+                            <a href="#" class="btn-t-la"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item vegetables">
+                    <div class="t-f-i">
+                        <img src="/imgs/potato.jpeg" alt="" class="zoom-img">
+                    </div>
+                    <div class="t-f-u-v">Vegetables</div>
+                    <div class="t-f-t">
+                        <h4>Potato</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum doloribus eveniet quo.
+                        </p>
+                        <div class="t-rate">
+                            <p class="t-price">$4.99 / kg</p>
+                            <a href="#" class="btn-t-la"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item vegetables">
+                    <div class="t-f-i">
+                        <img src="/imgs/spanich.jpeg" alt="" class="zoom-img">
+                    </div>
+                    <div class="t-f-u-v">Vegetables</div>
+                    <div class="t-f-t">
+                        <h4>Spanich</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum doloribus eveniet quo.
+                        </p>
+                        <div class="t-rate">
+                            <p class="t-price">$4.99 / kg</p>
+                            <a href="#" class="btn-t-la"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fourth-section">
+        <div class="fourth-main">
+            <div class="fourth-card f-c-1">
+                <img src="imgs/featur-1.jpg" alt="">
+                <div class="f-c-l-1 f-cc">
+                    <h5 class="f-h5 fa">Fresh Apples</h5>
+                    <h3 class="f-h3 of">20% OFF</h3>
+                </div>
+            </div>
+            <div class="fourth-card f-c-2">
+                <img src="imgs/featur-2.jpg" alt="">
+                <div class="f-c-l-2 f-cc">
+                    <h5 class="f-h5 tf">Tasty Fruits</h5>
+                    <h3 class="f-h3 fd">Free Delivery</h3>
+                </div>
+            </div>
+            <div class="fourth-card f-c-3">
+                <img src="imgs/v8.jpg" alt="">
+                <div class="f-c-l-3 f-cc">
+                    <h5 class="f-h5 ev">Exotic Vegetable</h5>
+                    <h3 class="f-h3 di">Discount 15$</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fifth-section">
+        <div class="fifth-main">
+            <h1>Fresh Organic Vegetables</h1>
+            <div class="fifth-btn">
+                <i role="button" id="fwd-btn" class="fas fa-long-arrow-alt-right"></i>
+                <i role="button" id="bwk-btn" class="fas fa-long-arrow-alt-left"></i>
+            </div>
+            <div class="fifth-slider ">
+                <div class="product-container " id="product-container">
+                    <div class="fifth-item">
+                        <div class="t-f-i">
+                            <img src="/imgs/v1.jpg" alt="" class="zoom-img">
+                        </div>
+                        <div class="t-f-u-v og-vv">Vegetables</div>
+                        <div class="t-f-t">
+                            <h4>Lady Finger</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum doloribus
+                                eveniet
+                                quo.
+                            </p>
+                            <div class="t-rate">
+                                <p class="t-price">$4.99 / kg</p>
+                                <a href="#" class="btn-t-la"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fifth-item">
+                        <div class="t-f-i">
+                            <img src="/imgs/v2.jpg" alt="" class="zoom-img">
+                        </div>
+                        <div class="t-f-u-v og-vv">Vegetables</div>
+                        <div class="t-f-t">
+                            <h4>Cucumber</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum doloribus eveniet
+                                quo.
+                            </p>
+                            <div class="t-rate"> 
+                                <p class="t-price">$4.99 / kg</p>
+                                <a href="#" class="btn-t-la"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fifth-item">
+                        <div class="t-f-i">
+                            <img src="/imgs/vegetable-item-1.jpg" alt="" class="zoom-img">
+                        </div>
+                        <div class="t-f-u-v og-vv">Vegetables</div>
+                        <div class="t-f-t">
+                            <h4>Parsely</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum doloribus eveniet
+                                quo.
+                            </p>
+                            <div class="t-rate">
+                                <p class="t-price">$4.99 / kg</p>
+                                <a href="#" class="btn-t-la"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fifth-item">
+                        <div class="t-f-i">
+                            <img src="/imgs/v4.jpg" alt="" class="zoom-img">
+                        </div>
+                        <div class="t-f-u-v og-vv">Vegetables</div>
+                        <div class="t-f-t">
+                            <h4>Coriander</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum doloribus eveniet
+                                quo.
+                            </p>
+                            <div class="t-rate">
+                                <p class="t-price">$4.99 / kg</p>
+                                <a href="#" class="btn-t-la"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fifth-item">
+                        <div class="t-f-i">
+                            <img src="/imgs/v5.jpg" alt="" class="zoom-img">
+                        </div>
+                        <div class="t-f-u-v og-vv">Vegetables</div>
+                        <div class="t-f-t">
+                            <h4>Potato</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum doloribus eveniet
+                                quo.
+                            </p>
+                            <div class="t-rate">
+                                <p class="t-price">$4.99 / kg</p>
+                                <a href="#" class="btn-t-la"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fifth-item">
+                        <div class="t-f-i">
+                            <img src="/imgs/v6.jpg" alt="" class="zoom-img">
+                        </div>
+                        <div class="t-f-u-v og-vv">Vegetables</div>
+                        <div class="t-f-t">
+                            <h4>Bell Papper</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum doloribus eveniet
+                                quo.
+                            </p>
+                            <div class="t-rate">
+                                <p class="t-price">$4.99 / kg</p>
+                                <a href="#" class="btn-t-la"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fifth-item">
+                        <div class="t-f-i">
+                            <img src="/imgs/v7.jpeg" alt="" class="zoom-img">
+                        </div>
+                        <div class="t-f-u-v og-vv">Vegetables</div>
+                        <div class="t-f-t">
+                            <h4>Onion</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum doloribus eveniet
+                                quo.
+                            </p>
+                            <div class="t-rate">
+                                <p class="t-price">$4.99 / kg</p>
+                                <a href="#" class="btn-t-la"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fifth-item">
+                        <div class="t-f-i">
+                            <img src="/imgs/v8.jpg" alt="" class="zoom-img">
+                        </div>
+                        <div class="t-f-u-v og-vv">Vegetables</div>
+                        <div class="t-f-t">
+                            <h4>Broccoli</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum ipsum doloribus eveniet
+                                quo.
+                            </p>
+                            <div class="t-rate">
+                                <p class="t-price">$4.99 / kg</p>
+                                <a href="#" class="btn-t-la"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sixth-section">
+        <div class="sixth-main">
+
+            <div class="sixth-text">
+                <div class="s-t-h">
+                    <h1>Fresh Exotic Fruits</h1>
+                </div>
+                <div class="s-t-p">
+                    <p>in Our Store</p>
+                </div>
+                <div class="s-t-p-s">
+                    <p>The generated Lorem Ipsum is therefore always free from repetition injected humour, or
+                        non-characteristic words etc.</p>
+                </div>
+                <div class="s-t-b">
+                    <a href="#" class="sixth-btn">BUY</a>
+                </div>
+            </div>
+            <div class="sixth-img">
+                <img src="imgs/baner-1.png" alt="">
+            </div>
+            <div class="sixth-tag">
+                <h1 class="s-tag-h">1</h1>
+                <div class="tag-o">
+                    <span class="s-dlr">50$</span>
+                    <span class="s-kg">kg</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="seventh-section">
+        <div class="seven-main">
+            <h1>Bestseller Products</h1>
+            <p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks
+                reasonable.</p>
+            <div class="seven-cards">
+                <div class="sev-card sev-c1">
+                    <div class="sev-img">
+                        <img src="/imgs/fruite-item-1.jpg" alt="">
+                    </div>
+                    <div class="sev-text">
+                        <a href="">
+                            <h5>Oranges</h5>
+                        </a>
+                        <div class="sev-stars">
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #45595b;"></i>
+                        </div>
+                        <h4>3.12 $</h4>
+                        <a href="#" class="sev-btn"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                    </div>
+                </div>
+                <div class="sev-card sev-c2">
+                    <div class="sev-img">
+                        <img src="/imgs/fruite-item-2.jpg" alt="">
+                    </div>
+                    <div class="sev-text">
+                        <a href="">
+                            <h5>Raspberries</h5>
+                        </a>
+                        <div class="sev-stars">
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #45595b;"></i>
+                        </div>
+                        <h4>3.12 $</h4>
+                        <a href="#" class="sev-btn"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                    </div>
+                </div>
+                <div class="sev-card sev-c3">
+                    <div class="sev-img">
+                        <img src="/imgs/fruite-item-3.jpg" alt="">
+                    </div>
+                    <div class="sev-text">
+                        <a href="">
+                            <h5>Banana</h5>
+                        </a>
+                        <div class="sev-stars">
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #45595b;"></i>
+                        </div>
+                        <h4>3.12 $</h4>
+                        <a href="#" class="sev-btn"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                    </div>
+                </div>
+                <div class="sev-card sev-c4">
+                    <div class="sev-img">
+                        <img src="/imgs/fruite-item-4.jpg" alt="">
+                    </div>
+                    <div class="sev-text">
+                        <a href="">
+                            <h5>Appricots </h5>
+                        </a>
+                        <div class="sev-stars">
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #45595b;"></i>
+                        </div>
+                        <h4>3.12 $</h4>
+                        <a href="#" class="sev-btn"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                    </div>
+                </div>
+                <div class="sev-card sev-c5">
+                    <div class="sev-img">
+                        <img src="/imgs/fruite-item-5.jpg" alt="">
+                    </div>
+                    <div class="sev-text">
+                        <a href="">
+                            <h5>Grapes</h5>
+                        </a>
+                        <div class="sev-stars">
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #45595b;"></i>
+                        </div>
+                        <h4>3.12 $</h4>
+                        <a href="#" class="sev-btn"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                    </div>
+                </div>
+                <div class="sev-card sev-c6">
+                    <div class="sev-img">
+                        <img src="/imgs/best-product-6.jpg" alt="">
+                    </div>
+                    <div class="sev-text">
+                        <a href="">
+                            <h5>Apples</h5>
+                        </a>
+                        <div class="sev-stars">
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #81c408;"></i>
+                            <i class="fas fa-star" style="color: #45595b;"></i>
+                        </div>
+                        <h4>3.12 $</h4>
+                        <a href="#" class="sev-btn "><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="sev-c-f">
+                <div class="sev-text sev-ci">
+                    <img src="/imgs/best-product-6.jpg" alt="">
+                    <a href="">
+                        <h5>Apples</h5>
+                    </a>
+                    <div class="sev-stars">
+                        <i class="fas fa-star" style="color: #81c408;"></i>
+                        <i class="fas fa-star" style="color: #81c408;"></i>
+                        <i class="fas fa-star" style="color: #81c408;"></i>
+                        <i class="fas fa-star" style="color: #81c408;"></i>
+                        <i class="fas fa-star" style="color: #45595b;"></i>
+                    </div>
+                    <h4>3.12 $</h4>
+                    <a href="#" class="btn-t-la down-sev"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                </div>
+                <div class="sev-text sev-ci">
+                    <img src="/imgs/red berry.webp" alt="">
+                    <a href="">
+                        <h5>Red Berries</h5>
+                    </a>
+                    <div class="sev-stars">
+                        <i class="fas fa-star" style="color: #81c408;"></i>
+                        <i class="fas fa-star" style="color: #81c408;"></i>
+                        <i class="fas fa-star" style="color: #81c408;"></i>
+                        <i class="fas fa-star" style="color: #81c408;"></i>
+                        <i class="fas fa-star" style="color: #45595b;"></i>
+                    </div>
+                    <h4>3.12 $</h4>
+                    <a href="#" class="btn-t-la down-sev"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                </div>
+                <div class="sev-text sev-ci">
+                    <img src="/imgs/mango.jpeg" alt="">
+                    <a href="">
+                        <h5>Mangoes</h5>
+                    </a>
+                    <div class="sev-stars">
+                        <i class="fas fa-star" style="color: #81c408;"></i>
+                        <i class="fas fa-star" style="color: #81c408;"></i>
+                        <i class="fas fa-star" style="color: #81c408;"></i>
+                        <i class="fas fa-star" style="color: #81c408;"></i>
+                        <i class="fas fa-star" style="color: #45595b;"></i>
+                    </div>
+                    <h4>3.12 $</h4>
+                    <a href="#" class="btn-t-la down-sev"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                </div>
+                <div class="sev-text sev-ci">
+                    <img src="/imgs/blue berry.jpg" alt="">
+                    <a href="">
+                        <h5>Blue Berries</h5>
+                    </a>
+                    <div class="sev-stars">
+                        <i class="fas fa-star" style="color: #81c408;"></i>
+                        <i class="fas fa-star" style="color: #81c408;"></i>
+                        <i class="fas fa-star" style="color: #81c408;"></i>
+                        <i class="fas fa-star" style="color: #81c408;"></i>
+                        <i class="fas fa-star" style="color: #45595b;"></i>
+                    </div>
+                    <h4>3.12 $</h4>
+                    <a href="#" class="btn-t-la down-sev"><i class="fa fa-shopping-bag fa-2x"></i>Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="eighth-section">
+        <div class="eight-main">
+            <div class="eight-cards">
+                <div class="eight-card">
+                    <i class="fa fa-users text-secondary"></i>
+                    <h4> SATISFIED CUSTOMERS</h4>
+                    <h1>1963</h1>
+                </div>
+                <div class="eight-card">
+                    <i class="fa fa-users text-secondary"></i>
+                    <h4>QUALITY OF SERVICE</h4>
+                    <h1>99%</h1>
+                </div>
+                <div class="eight-card">
+                    <i class="fa fa-users text-secondary"></i>
+                    <h4>QUALITY CERTIFICATES</h4>
+                    <h1>33</h1>
+                </div>
+                <div class="eight-card">
+                    <i class="fa fa-users text-secondary"></i>
+                    <h4>AVAILABLE PRODUCTS</h4>
+                    <h1>789</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ninth-section">
+        <div class="ninth-main">
+            <h4>Our Testimonial</h4>
+            <h1>Our Client Saying!</h1>
+            <div class="nine-btn">
+                <i role="button" id="fd-btn" class="fas fa-long-arrow-alt-right"></i>
+                <i role="button" id="bk-btn" class="fas fa-long-arrow-alt-left"></i>
+            </div>
+            <div class="reviews">
+                <div class="review active">
+                    <p>Lorem Ipsum is simply dummy text of the printing Ipsum has been the industry's standard dummy
+                        text ever since the 1500s,
+                    </p>
+                    <div class="line"></div>
+                    <div class="client">
+                        <div class="client-img">
+                            <img src="/imgs/18.jpg" alt="">
+                        </div>
+                        <div class="client-bio">
+                            <h4>Client Name</h4>
+                            <p>Profession</p>
+                            <div class="sev-stars">
+                                <i class="fas fa-star" style="color: #81c408;"></i>
+                                <i class="fas fa-star" style="color: #81c408;"></i>
+                                <i class="fas fa-star" style="color: #81c408;"></i>
+                                <i class="fas fa-star" style="color: #81c408;"></i>
+                                <i class="fas fa-star" style="color: #45595b;"></i>
+                            </div>
+                        </div>
+                        <div class="quote">
+                            <i class="fa fa-quote-right fa-2x text-secondary position-absolute"
+                                style="color:#ffb524"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="review active">
+                    <p>Lorem Ipsum is simply dummy text of the printing Ipsum has been the industry's standard dummy
+                        text ever since the 1500s,
+                    </p>
+                    <div class="line"></div>
+                    <div class="client">
+                        <div class="client-img">
+                            <img src="/imgs/87.jpg" alt="">
+                        </div>
+                        <div class="client-bio">
+                            <h4>Client Name</h4>
+                            <p>Profession</p>
+                            <div class="sev-stars">
+                                <i class="fas fa-star" style="color: #81c408;"></i>
+                                <i class="fas fa-star" style="color: #81c408;"></i>
+                                <i class="fas fa-star" style="color: #81c408;"></i>
+                                <i class="fas fa-star" style="color: #81c408;"></i>
+                                <i class="fas fa-star" style="color: #45595b;"></i>
+                            </div>
+                        </div>
+                        <div class="quote">
+                            <i class="fa fa-quote-right fa-2x text-secondary position-absolute"
+                                style="color:#ffb524"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="review">
+                    <p>Lorem Ipsum is simply dummy text of the printing Ipsum has been the industry's standard dummy
+                        text ever since the 1500s,
+                    </p>
+                    <div class="line"></div>
+                    <div class="client">
+                        <div class="client-img">
+                            <img src="/imgs/1.jpg" alt="">
+                        </div>
+                        <div class="client-bio">
+                            <h4>Client Name</h4>
+                            <p>Profession</p>
+                            <div class="sev-stars">
+                                <i class="fas fa-star" style="color: #81c408;"></i>
+                                <i class="fas fa-star" style="color: #81c408;"></i>
+                                <i class="fas fa-star" style="color: #81c408;"></i>
+                                <i class="fas fa-star" style="color: #81c408;"></i>
+                                <i class="fas fa-star" style="color: #45595b;"></i>
+                            </div>
+                        </div>
+                        <div class="quote">
+                            <i class="fa fa-quote-right fa-2x text-secondary position-absolute"
+                                style="color:#ffb524"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="tenth-section">
+        <div class="ten-main">
+            <div class="ten-first">
+                <div class="ten-comp">
+                    <a href="">
+                        <h1 class="co-h">Fruitables</h1>
+                    </a>
+                    <a href="">
+                        <p class="co-p">Fresh Products</p>
+                    </a>
+                </div>
+                <div class="ten-btn">
+                    <input class="first-input t-i" placeholder="Your Email">
+                    <button type="submit " class="first-button t-sub">Submit Now</button>
+                </div>
+                <div class="ten-logos">
+                    <div class="sl">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="sl">
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer noopener">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                    <div class="sl">
+                        <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="sl">
+                        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
+                            <i class="fab fa-instagram t-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="ten-line"></div>
+            <div class="ten-li">
+                <div class="ten-row">
+                    <div class="head-ten">
+                        <h4>Why People Like us!</h4>
+                    </div>
+                    <div class="list-ten">
+                        <p class="wplu">typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                            with the like Aldus PageMaker including of Lorem Ipsum.</p>
+                        <a href="" class="last-btn">Read More</a>
+                    </div>
+                </div>
+                <div class="ten-row">
+                    <div class="head-ten">
+                        <h4>Shop Info</h4>
+                    </div>
+                    <div class="list-ten">
+                        <ul>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
+                            <li><a href="">Return Policy</a></li>
+                            <li><a href="">FAQs & Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ten-row">
+                    <div class="head-ten">
+                        <h4>Account</h4>
+                    </div>
+                    <div class="list-ten">
+                        <ul>
+                            <li><a href="">My Account</a></li>
+                            <li><a href="">Shop Details</a></li>
+                            <li><a href="">Shopping Cart</a></li>
+                            <li><a href="">Wishlist</a></li>
+                            <li><a href="">Order History</a></li>
+                            <li><a href="">International Orders</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="ten-row">
+                    <div class="head-ten">
+                        <h4>Contact</h4>
+                    </div>
+                    <div class="list-ten">
+                        <p>Address: 1429 Netus Rd, NY 48247</p>
+                        <p>Email: Example@gmail.com</p>
+                        <p>Phone: +0123 4567 8910</p>
+                        <p>Payment Accepted</p>
+                        <img src="imgs/payment.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="ten-bottom">
+                <div class="bt-f">
+                    <span class="bt-f-t"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>,
+                        All right reserved.</span>
+                </div>
+                <div class="bt-l"></div>
+                <span class="bt-l-t">
+                    Designed By <a class="border-bottom" href="https://htmlcodex.com">MUIZ</a> Distributed By <a
+                        class="border-bottom" href="https://themewagon.com">MR Production</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <a href="#navbar" class="btn btn-primary border-3 border-primary rounded-circle back-to-top" style="opacity: 0.972222;"><i class="fa fa-arrow-up"></i></a>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
